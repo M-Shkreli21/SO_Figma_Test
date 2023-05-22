@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('SFProDisplay-Regular.woff') format('woff'),
+         url('SFProDisplay-Regular.woff2') format('woff2');
+}
+
+#container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    height: 50;
+    font-family: 'CustomFont';
+}
+
+#fine_print {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    height: 50;
+    font-family: 'CustomFont';
+}
+
+body {
+    background-image: url('Asset.png');
+    background-color: black;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    display: inline-block;
+    width: calc(50% - 5px);
+    padding: 25px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+form input[name="handle"] {
+    display: inline-block;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+form button[type="submit"] {
+    display: block;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px
+}
+
+form button[type="submit"]:hover {
+    background-color: white;
+}
+
